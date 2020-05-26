@@ -13,16 +13,17 @@ Here are some tags
     <li> data in lists </li>    
 </ul>
 ```
-<ul>
-    <li>The <!DOCTYPE html> declaration defines this document to be HTML5</li>
-    <li>The <html> element is the root element of an HTML page</li>
-    <li>The <head> element contains meta information about the document</li>
-    <li>The <title> element specifies a title for the document</li>
-    <li>The <body> element contains the visible page content</li>
-    <li>The <h1> element defines a large heading</li>
-    <li>The <p> element defines a paragraph</li>
+```html
+    The <!DOCTYPE html> declaration defines this document to be HTML5
+    The <html> element is the root element of an HTML page
+    The <head> element contains meta information about the document
+    The <title> element specifies a title for the document
+    The <body> element contains the visible page content
+    The <h1> element defines a large heading
+    The <p> element defines a paragraph
+```
 <ul>    
-    <li>  git status - to see what files have chnaged or been added </li>
+    <li>git status - to see what files have chnaged or been added </li>
     <li>git add (filename) - to add files</li>
     <li>git commit - m 'what changes you've made' - to commit </li>
     <li>git push origin master - pushes master branch (use - u if first time)</li>
