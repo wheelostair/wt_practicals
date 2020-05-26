@@ -54,3 +54,46 @@ The folowing tags are inline elements:
 <a>…</a>
 
 ```
+
+HTML <Div> Tag
+
+Defines a divison or a section in a HTML doc
+Used to group elemtns to format them with styles:
+
+```html
+<body>
+	<div id=“wrapper">
+		<div id="header”>
+       	…… 
+		</div>  <!- - [end]#header - -> 
+		<div id="section”>
+      		……
+		</div> <!- - [end]#section - -> 
+		<div id="footer”>
+        …….
+		</div><!- - [end]#footer - ->
+	</div> <!- - [end]#content - ->
+</body> 
+```
+
+HTML <span> Tag
+
+provides a way to add a hook to a piece of text or a part of a doc, e,g
+
+```html
+<p>She has <span class="blue">light blue</span> eyes.</p>
+```
+
+class and id Attributes
+
+class specifies the element as a member of one or more classes, allows developers to define specific kinds of a given element
+
+```html
+<element class="classname">
+```
+
+id specifies a unique id for an HTML element, Can only be used once
+```html
+<element id="id">
+```
+
