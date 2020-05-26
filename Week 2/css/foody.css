@@ -1,0 +1,62 @@
+*{
+    Margin: 10;
+    padding: 10;
+}
+mark.red{
+    color: red;
+    background: none;
+}
+img 
+h1 {
+    width: 35%;
+    margin-left: 50px;
+}
+hr {
+    width: 20px;
+    color: red;
+    
+}
+#header{
+    margin-bottom: 100px;
+}
+p {
+    font-size: 12px;
+    line-height: 25px;
+}
+h3 {
+    text-align: left;
+    color: red;
+    font-size: 12px
+}
+nav ul {
+    margin: 0 auto;
+    width: 30%;
+    }
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+    
+    }
+
+#large_article {
+    margin-left: 50px;
+    width: 25%;
+    float: left;
+    box-shadow: 5px 10px 10px grey;
+    margin-right: 500px;
+    margin-bottom: 50px;
+    margin: 20;
+    padding: 30px;
+}
+
+article {
+
+width: 25%;
+float: left;
+margin-left: 10px;
+padding: 30px;
+box-shadow: 5px 10px 10px grey;
+text-align: center;
+
+    }
