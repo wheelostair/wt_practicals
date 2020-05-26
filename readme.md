@@ -4,7 +4,7 @@
 
 Here are some tags
 
-'''html
+```html
 
 <h1> </h1> - Heading 1
 <h6> </h6> - Heading 6
@@ -12,4 +12,4 @@ Here are some tags
 <ul> - Undefined lists
     <li> data in lists </li>    
 </ul)>>
-'''
+```
