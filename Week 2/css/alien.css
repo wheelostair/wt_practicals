@@ -1,6 +1,5 @@
-content {
-    background-color: #979797;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+#content {
+       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
        
 }
 nav ul li {
@@ -14,46 +13,129 @@ nav{
     background-color: #5ca1f1;
     margin-right: 20%;
     margin-bottom: 10%;
+    width: 100%;
 }
 
-#top-area {
-
+#top-area  
+{   
     background-color: #5ca1f1;
     padding-right: 15%;
     padding-left: 15%;
     padding-top: 15%;
-    
-    
-    
+    padding-bottom: 20%;
+       
 }
-img[src="images/alien.png"] {
-    display: inline-block;
-    
-}
-h1 {width: 60%;
+img[src="images/alien.png"]    
+{
+    float: left;
+    background-color: #5ca1f1;
+    }
+
+h1 
+{width: 60%;
     font-size: 55px;
     font-weight: bold;
-    color: #FFFFFF;
+    color: #FFFFFF ;
+    float: left;
+    padding-right: 10%;
+    background-color: #5ca1f1;
     
 }
-h2 {width: 60%;
-    font-size: 55px;
+h2 {font-size: 55px;
     font-weight: bold;
     color: #333333;
 }
 article {
-    padding-left: 15%;
-    width: 80%;
-    float: left;
+    padding-left: 10%;
+    padding-bottom: 15%;
     text-align: center;
-    display: inline;
+    width: 30%;
+    float: left;
+        
 }
 h3 {
     font-size: 29px;
     font-weight: bold;
+    text-align: left;
+    
 }
 p {
     font-size: 16px;
     font-weight: bold;
     color: #848484;
+    
+}
+img[src="images/screens.png"]
+{
+    
+    float: left;
+    width: 50%;
+    
+}
+#left-text
+{
+    text-align: left;
+}
+
+footer
+{
+    float: left;
+    width: 100%;
+    padding-top: 5%;
+    background-color: lightgray;
+    text-align: center;
+    color: white;
+   
+}
+@media (max-width: 700px) {
+    nav ul li {
+        padding-top: 3%;
+        display: inline;
+        color: #FFFFFF;
+        padding-right: 20%;
+        text-align: center;
+    }
+    #top-area  
+{   
+    background-color: #5ca1f1;
+    width: 100%;
+    padding-right: 10%;
+         
+}
+    img[src="images/alien.png"]    
+{
+    width: 100%;
+    background-color: #5ca1f1;
+    float: none;
+}
+
+    article {
+        padding-left: 10%;
+        padding-bottom: 15%;
+        text-align: center;
+        width: 100%;
+        }
+    h1 
+        {
+            width: 100%;
+    font-size: 55px;
+    font-weight: bold;
+    color: #FFFFFF ;
+    float: left;
+    text-align: center;
+    padding-bottom: 10%;
+        }
+    #web_design{
+        display: none;
+    }
+    img[src="images/screens.png"]{
+        display: none;
+    }
+    #left-text {
+        display: none;
+    }
+    h3 {
+        display: none;
+    }
+    
 }
