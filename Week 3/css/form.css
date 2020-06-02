@@ -1,0 +1,8 @@
+
+form {
+    width: 400px;
+}
+
+#travel input[type="text"],[type="tel"] {
+    float: right;
+}
