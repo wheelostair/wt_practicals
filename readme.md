@@ -98,3 +98,27 @@ id specifies a unique id for an HTML element, Can only be used once
 <element id="id">
 ```
 
+## Session 3
+
+<h1> Forms & Inputs </h1>
+
+```html
+<form>
+
+</form>
+```
+
+A container for the controls (Text feild, checkbox, radio buttons etc.)
+
+Forms can be used to send data to places:
+
+```html
+<form action="https://www.google.com" method="post">
+
+</form>
+```
+Action = Where the form is sent to
+Method = how the form is to be sent
+    Get : data is appended to the URL
+    Post: data is included in the body of the form
+
