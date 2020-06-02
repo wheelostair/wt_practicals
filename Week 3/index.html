@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Survey</title>
+</head>
+<body>
+    <form>
+   <p><label>Name*: </label> <input type="text" name="name" required></p>
+ 
+   <p><label>Email*: </label> <input type="text" name="email" required></p>
+   
+   <p><label>Number*: </label> <input type="text" name="number" required></p>
+
+   <label>What year are you in*:</label> <select id="year" name="year" required> 
+        <option value=""> Select Year </option>
+        <option value="1"> Year 1 </option>
+        <option value="2"> Year 2 </option>
+        <option value="4"> Year 4 </option>
+        </select>
+    
+    <p><label>Which electronic devices do you use?</label></p>
+    <p><input type="checkbox" name= "rating" value="Computer"> Computer</p>
+    <p><input type="checkbox" name= "rating" value="Ebook reader"> Ebook Reader</p>
+    <p><input type="checkbox" name= "rating" value="Smart phone"> Smart Phone</p>
+
+    <p><label>How many hours do you spend using electronic devices?</label></p>
+    <p><input type="checkbox" name= "rating" value="1 hour"> 1 hour</p>
+    <p><input type="checkbox" name= "rating" value="2 hours"> 2 hours</p>
+    <p><input type="checkbox" name= "rating" value="3 hours +"> 3 hours +</p>
+
+    <p><label>Any other comments:</label></p>
+    <textarea name="comments" rows="10" cols="30"></textarea>
+
+    <p> <input type="submit" name="submit" value="Submit"> </p> 
+
+    </form>
+</body>
+</html>
