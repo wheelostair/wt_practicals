@@ -122,3 +122,16 @@ Method = how the form is to be sent
     Get : data is appended to the URL
     Post: data is included in the body of the form
 
+The <input> element handles most of the form controls, these also have different attributes, the input's change thier look and feel based on which type attribute we use.
+
+```html
+<form action="https://www.google.com" method="post">
+    <p> <label for="name">Name:</label> <input type="text" name="name"> </p>
+    <p> <label for="email">Email:</label> <input type="text" name="email"> </p>
+    <p><input type="submit" name="Submit" value="Submit"></p>
+</form>
+```
+
+The above example has two input types: Text & Submit
+Inputs can have a label which is a value attribute, a specailised element used for marking form control.
+It's good practice to wrap inputs and lables in <P>
