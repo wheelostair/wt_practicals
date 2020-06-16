@@ -13,8 +13,9 @@ function main() {
   
 function buttonClicked() {
     
-    playerGuess = document.getElementById("guess").Value;
-    
+    playerGuess = document.getElementById("guess").value;
+    console.log(playerGuess)
+    console.log(random_number)
     if (playerGuess > random_number) {
         console.log("too high!") 
     }
