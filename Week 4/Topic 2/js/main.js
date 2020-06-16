@@ -1,28 +1,30 @@
-var random_number
-var number_of_guesses
+var random_number;
+var playerGuess
+var number_of_guesses;
 
-function main () {
-    alert('working')
-    random_number = randomNumber
+function main() {
+    random_number = Math.round(Math.random() * (30 - 1)) + 1;
+    console.log(random_number);
+    
 
-    var myButton = document.getElementById("button")
-
+    var myButton = document.getElementById("tryguess");
     myButton.addEventListener("click", buttonClicked)
-}
-
-function randomNumber() {
-    getRandomArbitary(min,max)
-}
+    }
+  
 function buttonClicked() {
-
-} 
-
-if (tryguess > random_number) {
-    console.log("You're too high!")
-} 
-else if (tryguess < random_number){
-    console.log("You're too low!")
-}
-else {
-    console.log("You're Correct!")
+    
+    playerGuess = document.getElementById("guess").Value;
+    
+    if (playerGuess > random_number) {
+        console.log("too high!") 
+    }
+    else if (playerGuess < random_number) {
+        console.log("too low!")
+    }
+    else if (playerGuess == random_number) {
+            console.log("SPOT ON!")
+    }
+    else { 
+            console.log("Not in range.")
+    }
 }

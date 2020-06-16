@@ -1,0 +1,15 @@
+
+form{
+    width: 500px;
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+#formTest input[type="text"] {
+    float: right;
+}
+p{
+    color: blanchedalmond;
+}
+
