@@ -1,0 +1,82 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    text-align: center;
+    color: darkolivegreen;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+h2{
+    text-align: center;
+    color: blue;
+    font-weight: bold;
+}
+#wrapper{
+    width: 920px;
+    margin: auto;
+    
+}
+header ul{
+    padding-inline-start: 0px;
+}
+header ul li{
+    display: inline;
+    padding: 5px;
+    color: cornsilk;
+    font-weight: bold;
+    
+}
+header{
+    text-align: center;
+    background-color: blue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#about_me{
+    float: left;
+    width: 430px;
+    height: 200px;
+    background-color: darkgray;
+    padding: 5px;
+    margin: 5px;
+}
+#background{
+    float: left;
+    width: 430px;
+    height: 200px;
+    background-color: darkgray;
+    padding: 5px;
+    margin: 5px;
+}
+#main_section{
+    align-content: center;
+    background-color: cornflowerblue;
+}
+table{
+    display: flex;
+    justify-content: center;
+    clear: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+th, td{
+    border: 1px solid black;
+    text-align: left;
+    color: floralwhite;
+    font-weight: bold;
+}
+.high{
+    font-size: 20px;
+    text-align: center;
+}
+footer{
+    text-align: center;
+    background-color: khaki;
+    color: mediumorchid;
+    padding-top: 10px;
+    padding-bottom: 1px;
+    margin-top: 5px;
+    font-weight: bold;
+}
