@@ -40,8 +40,8 @@ footer{
 }
 #section1,#section2,#section3,#section4{
     float: left;
-    width: 47%;
-    height: 180px;
+    width: 44%;
+    height: auto;
     padding: 10px;
     margin: 10px;
     
@@ -52,7 +52,8 @@ footer{
     width: 47%;
     height: 300px;
     padding: 10px;
-    margin-left: 400px;
+    margin: auto;
+    padding-bottom: 20px;
     
     
 }
@@ -85,12 +86,11 @@ input[type=submit]{
 }
 
 @media (max-width: 400px){
-    #section1,#section2,#section3,#section4{
-        float: left;
-        width: 85%;
-        height: 180px;
-        padding: 10px;
-        margin: 10px;
+#section1,#section2,#section3,#section4{
+    width: 85%;
+    height: 180px;
+    padding: 10px;
+    margin: 10px;
         
 }
 #contact_us{float: left;
