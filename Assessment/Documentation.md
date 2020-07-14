@@ -10,6 +10,6 @@ My website would consist of an Index page which shows the buildings available to
 
 Below is a rough idea of what i would like my website to look like. 
 
-<img src="wireframes/Index_Desktop.jpg" alt="Picture of desktop version of website">
+<img src="Wireframes/Index_Desktop.jpg" alt="Picture of desktop version of website">
 
-<img src="wireframes/Index_Mobile.jpg" alt="Picture of mobile version of website">
+<img src="Wireframes/Index_Mobile.jpg" alt="Picture of mobile version of website">
