@@ -1,33 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    width: 100%;
+}
+#iwc{
+    padding: 2px;
+    width: 10%;
+}
+#needles{
+    width:88%;
+}
 .slide-container{
+    width: 60%;
     margin: auto;
-    width: 800px;
-    height: 400px;
+    border: 5px solid black;
     overflow: hidden;
-    text-align: center;
-    background-color: white;
+    clear: both;
+    
 }
 .slide{
-    width: 2400px;
-    height: 400px;
-    position: relative;
-    transition: left 2s;
-    -webkit-transition: left 2s;
-    -moz-transition: left 2s;
-    -o-transition: left 2s;
-} 
-.slider-image{
+    display: flex;
+    width: 100%;
+}
+#buttons{
+    float: right;
+    margin: 5px;
+    margin-right: 200px;
+    padding: 5px;
+}
+.button{
+    color: grey;
+    font-size: 30px;
+}
+#slide_but{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    padding: 5px;
+}
+#main_section{
+    width: 50%;
     float: left;
-    margin: 0px;
-    padding: 0px;
+    text-align: center;
+    align-content: center;
+    margin-left: 5%;
+
 }
-.button-container{
-    top: -20px;
-    position: relative;
+h2{
+    width: 50%;
+    font-size: 50px;
 }
-.slider-button{
-    display: inline-block;
-    height: 10px;
-    width: 10px;
-    border-radius: 3px;
-    background-color: white;
+p{
+    width: 50%;
+    font-size: 20px;
+    
+}
+#deskphoto{
+    float: left;
+    border: 5px solid black;
+    width: 45%;
+    overflow: hidden;
+    }
+#desk{
+    width:100%;
+}
+
+footer{
+    background-color: lightgray;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    padding-top: 10px;
+}
+.foot{
+    font-size: 15px;
+    float: left;
+    vertical-align: middle;
+    width: 50%;
+}
+
+#logo{
+    float: right;
+    margin-bottom: 10px;
+    padding-right: 5px;
+    
+}
+@media (max-width: 700px) {
+    #deskphoto {
+        display: none;
+    } 
+    #main_section {
+    width: 100%;
+    text-align: center;
+    align-content: center;
+    margin-left: 5%;
+    }
+    h2{
+        width: 80%;
+        font-size: 50px;
+        margin: auto;
+    }
+    p{
+        width: 80%;
+        font-size: 20px;
+        margin: auto;
+    }
+    #buttons{
+        width:100%;
+        margin: auto;
+        float: none;
+        padding: 5px;
+        text-align: center;
+        
+    }        
 }
