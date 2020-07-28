@@ -3,46 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Main page</title>
+    <title>Somerton</title>
     <link rel="stylesheet" href="css/main.css">
     
     </head>
 <body>
+    <!--Header, which includes link back to index page in logo.png-->
     <header>
         <a href="index.html"><img id="iwc" src="images/logo.png" alt="Isle of Wight Council Logo" height=100></a>
         <img id="needles" src="images/needles.jpg" alt="Image of the needles" height=100 width=1900>
     </header>
-
+    <!--Buttons, which link to additional pages-->
     <div id="buttons">
-        <button onclick="location.href='county_hall.html'" type="button">County Hall</button> 
-        <button onclick="location.href='seaclose.html'" type="button">Seaclose</button>
-        <button onclick="location.href='somerton.html'" type="button">Somerton</button>
+        <button class="button" onclick="location.href='county_hall.html'" type="button">County Hall</button> 
+        <button class="button" onclick="location.href='seaclose.html'" type="button">Seaclose</button>
+        <button class="button" onclick="location.href='somerton.html'" type="button">Somerton</button>
     </div>
-
-     
+    <!--Main Section, information on building address and picture of desk layout-->     
     <div id="main_section">
-        <h2>Isle of Wight Council ICT Desk Bookings</h2>
+        <h2>Somerton</h2>
         <br>
-        <p>Due to the outbreak of COVID-19 and the need for social distancing</p>
-        <p>The IWC has decided to implement desk bookings in three council buildings</p>
-        <p>Please choose your building above and then complete the form to book your desk space</p>
+        <p>Unit 5 Mariners Way, Cowes PO31 8PD.</p>
+        <br>
+        <div id="plan">
+            <img id="desk" src="images/desk.jpg" alt="Image of Desks">
+        </div>
         
     </div>
-
-    <div id="deskphoto">
-        <img id="desk" src="images/desk.jpg" alt="Image of Desks">
+    <!--Rules section,  information on booking rules and procedures-->
+    <div id="rules">
+        <p>Desks must be booked 24 hours in advance. Desk must be cleaned before and after use. Please try and maintain a 2 meter distance between you and your colleagues at all times.</p>
+    </div>
+    <!--A picture of a map which links to google maps so you can find the site-->
+    <div class="map">
+        <a href="https://www.google.com/maps/place/Isle+of+Wight+Council/@50.7005082,-1.2903733,17z/data=!4m5!3m4!1s0x0:0x358ac78301fb4224!8m2!3d50.7005584!4d-1.2905744"><img id="so_map" src="images/so_map.png" alt="Map of somerton" height=200 width=300></a>
+    </div>
+    <!--a Button which links to the booking page-->
+    <div id="booking">
+        <button id="book" onclick="location.href='booking.html'" type="button"> Click here to book desk </button>
+        </button>
     </div>
 
-    
+    <!--Footer, which includes link to IWC privacy notice-->
     <footer>
-        <p class="foot">Contact Details : Isle of Wight Council, Customer Service Centre, County Hall, High Street, Newport, Isle of Wight, PO30 1UD, Tel: 01983 821000, © 1999-2020 Isle of Wight Council.</p>   
+        <p class="foot">Contact Details : Isle of Wight Council, Customer Service Centre, County Hall, High Street, Newport, Isle of Wight, PO30 1UD, Tel: 01983 821000, © 1999-2020 Isle of Wight Council. <br> <a href="https://www.iow.gov.uk/Council/OtherServices/Website/Privacy">Privacy</a></p> 
         <img id="logo" src="images/logo.png" alt="Isle of Wight Council Logo">
         
     </footer>
 
-
-
-
-    <script src="scripts/slideshow.js"></script> 
+    
 </body>
 </html>

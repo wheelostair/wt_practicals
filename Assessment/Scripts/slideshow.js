@@ -25,7 +25,7 @@ prevBut.addEventListener('click',()=>{
     counter--;
     carouselSlide.style.transform = 'translateX(' + (-size * counter) + 'px)';
 });
-
+//clones added to make sure loop can continue
 carouselSlide.addEventListener('transitionend', ()=>{
     if (carouselImages[counter].id === 'lastClone'){
         carouselSlide.style.transition = 'none';

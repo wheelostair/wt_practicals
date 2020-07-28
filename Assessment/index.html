@@ -8,56 +8,56 @@
     
     </head>
 <body>
+    <!--Header, which includes link back to index page in logo.png-->
     <header>
-        <a href="index.html"><img id="iwc" src="images/logo.png" alt="Isle of Wight Council Logo" height=100></a>
+        <a href='index.html'><img id="iwc" src="images/logo.png" alt="Isle of Wight Council Logo" height=100></a>
         <img id="needles" src="images/needles.jpg" alt="Image of the needles" height=100 width=1900>
     </header>
-
+    <!--Buttons, which link to additional pages-->
     <div id="buttons">
-        <button onclick="location.href='county_hall.html'" type="button">County Hall</button> 
-        <button onclick="location.href='seaclose.html'" type="button">Seaclose</button>
-        <button onclick="location.href='somerton.html'" type="button">Somerton</button>
+        <button class="button" onclick="location.href='county_hall.html'" type="button">County Hall</button> 
+        <button class="button" onclick="location.href='seaclose.html'" type="button">Seaclose</button>
+        <button class="button" onclick="location.href='somerton.html'" type="button">Somerton</button>
     </div>
-
+    <!--Slideshow container, which includes pictures and links to each page, clones used to make sure the slideshow can keep looping-->
     <div class="slide-container">
         <div class="slide">
-            <img src="images/somerton.png" alt="Image of Somerton" id="lastClone">
-            <img src="images/county_hall.png" alt="Image of County Hall">
-            <img src="images/seaclose.png" alt="Image of Seaclose">        
-            <img src="images/somerton.png" alt="Image of Somerton">
-            <img src="images/county_hall.png" alt="Image of County Hall" id="firstClone">
+            <a href="somerton.html"><img src="images/somerton.png" alt="Image of Somerton" id="lastClone"></a>
+            <a href="county_hall.html"><img src="images/county_hall.png" alt="Image of County Hall"></a>
+            <a href="seaclose.html"><img src="images/seaclose.png" alt="Image of Seaclose"></a>
+            <a href="somerton.html"><img src="images/somerton.png" alt="Image of Somerton"></a>
+            <a href="county_hall.html"><img src="images/county_hall.png" alt="Image of County Hall" id="firstClone"></a>
         </div>
     </div>
-
-    <div id="slide_but">
-    <button id="prevBut">Prev</button>
-    <button id="nextBut">Next</button>
     
+    <!--Slideshow buttons, to move the slideshow left and right-->
+    <div id="slide_but">
+        <button id="prevBut">Prev</button>
+        <button id="nextBut">Next</button>
     </div>
-
+    <!--Main Section, information on website reason for website-->
     <div id="main_section">
         <h2>Isle of Wight Council ICT Desk Bookings</h2>
         <br>
         <p>Due to the outbreak of COVID-19 and the need for social distancing</p>
         <p>The IWC has decided to implement desk bookings in three council buildings</p>
         <p>Please choose your building above and then complete the form to book your desk space</p>
-        
     </div>
-
+    <!--photo of regular desk space at IWC-->
     <div id="deskphoto">
         <img id="desk" src="images/desk.jpg" alt="Image of Desks">
     </div>
 
-    
+    <!--Footer, which includes link to IWC privacy notice-->
     <footer>
-        <p class="foot">Contact Details : Isle of Wight Council, Customer Service Centre, County Hall, High Street, Newport, Isle of Wight, PO30 1UD, Tel: 01983 821000, © 1999-2020 Isle of Wight Council.</p>   
+        <p class="foot">Contact Details : Isle of Wight Council, Customer Service Centre, County Hall, High Street, Newport, Isle of Wight, PO30 1UD, Tel: 01983 821000, © 1999-2020 Isle of Wight Council. <br> <a href="https://www.iow.gov.uk/Council/OtherServices/Website/Privacy">Privacy</a></p> 
         <img id="logo" src="images/logo.png" alt="Isle of Wight Council Logo">
         
     </footer>
 
 
 
-
-    <script src="scripts/slideshow.js"></script> 
+    <!--Script - run asynchronously so that the javascript loads each time the page is loaded.-->
+    <script async src="scripts/slideshow.js"></script> 
 </body>
 </html>

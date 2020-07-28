@@ -3,9 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Booking</title>
-</head>
-<body>
+    <title>Booking page</title>
+    <link rel="stylesheet" href="css/main.css">
     
+    </head>
+<body>
+    <!--Header, which includes link back to index page in logo.png-->
+    <header>
+        <a href="index.html"><img id="iwc" src="images/logo.png" alt="Isle of Wight Council Logo" height=100></a>
+        <img id="needles" src="images/needles.jpg" alt="Image of the needles" height=100 width=1900>
+    </header>
+    <!--Buttons, which link to additional pages-->
+    <div id="buttons">
+        <button class="button" onclick="location.href='county_hall.html'" type="button">County Hall</button> 
+        <button class="button" onclick="location.href='seaclose.html'" type="button">Seaclose</button>
+        <button class="button" onclick="location.href='somerton.html'" type="button">Somerton</button>
+    </div>
+
+    <!--Main Section, form for completion with required fields and input types-->
+    <div id="book_page">
+        <h2>Enquire about making a booking at an ICT IWC council building</h2>
+    </div>
+        
+    <form id="form">
+        <p class="book_form"><label>Name*: </label> <input type="text" name="name" required></p>
+        <br>
+        <p class="book_form"><label>Position: </label> <input type="text" name="position" ></p>
+        <br>
+        <p class="book_form"><label>Email*: </label> <input type="email" name="email" required></p>
+        <br>
+        <p class="book_form"><label>Phone Number*: </label> <input type="tel" name="phone" required></p>
+        <br>
+        <p class="book_form"><label>Building Required*: </label> <input type="text" name="building" required></p>
+        <br>
+        <p class="book_form"><label>Date Desk Required*: </label> <input type="date" name="date" required></p>
+        <br>
+        <p class="book_form"><label>Additional Message: </label> <textarea id="textarea" name="comments" ></textarea></p>
+        <!--a Button to complete the enquiry-->
+        <div id="booking">
+            <button id="submit"> Click here to request desk </button>
+        </div>
+    </form>
+    </div>
+    <!--Footer, which includes link to IWC privacy notice-->
+    <footer>
+        <p class="foot">Contact Details : Isle of Wight Council, Customer Service Centre, County Hall, High Street, Newport, Isle of Wight, PO30 1UD, Tel: 01983 821000, © 1999-2020 Isle of Wight Council. <br> <a href="https://www.iow.gov.uk/Council/OtherServices/Website/Privacy">Privacy</a></p> 
+        <img id="logo" src="images/logo.png" alt="Isle of Wight Council Logo">
+        
+    </footer>
+   
 </body>
 </html>

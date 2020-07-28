@@ -40,7 +40,7 @@ I have also made the font a larger size, for those who have difficulty seeing sm
 
 <h2>GDPR</h2>
 
-Whilst creating my website I have treid to follow the General Data Protection Regulations as best i can, paying attention to the 8 individual rights. I have linked the IOW council privicy notice in the footer of each of the pages so that this is availbe for my users to view at any time. My form won't actually submit any Data at present and as such there is no need for me to make possible the right to erasure or rectification. 
+Whilst creating my website I have treid to follow the General Data Protection Regulations as best i can, paying attention to the 8 individual rights. I have linked the IOW council privicy notice in the footer of each of the pages so that this is availble for my users to view at any time. My form won't actually submit any Data at present and as such there is no need for me to make possible the right to erasure or rectification. 
 
 <h2>Distance Selling</h2>
 
