@@ -2,9 +2,10 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.header{
+header{
     width: 100%;
 }
 #iwc{
@@ -179,6 +180,10 @@ footer{
     text-align: center;
     align-content: center;
     margin: auto;
+    }
+    #needles{
+        width:88%;
+        height:65px;
     }
     h2{
         width: 80%;
