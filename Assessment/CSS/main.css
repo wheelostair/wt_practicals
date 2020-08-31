@@ -4,7 +4,9 @@
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
+body{
+    background: linear-gradient(blue, white);
+}
 header{
     width: 100%;
 }
@@ -48,6 +50,9 @@ header{
     margin: 5px;
     padding: 5px;
 }
+#address{
+    color: white;
+}
 #main_section{
     width: 40%;
     float: left;
@@ -72,9 +77,9 @@ header{
     margin-top: 10%;
     margin-right: 5%;
 }
-h2{
-    
-    font-size: 50px;
+h1{
+    color: white;
+    font-size: 50px;    
 }
 p{
     
@@ -143,13 +148,25 @@ width: 100%;
     background-color: grey;
     font-size: 40px;
 }
-.book_form{
+#form input:hover{
+    background-color: blue;
+}
+#building{
+    float: right;
+    width: 70%;
+    background-color: grey;
     font-size: 40px;
 }
-
-
-
-
+#building:hover{
+    background-color: blue;
+}
+#textarea:hover{
+    background-color: blue;
+}
+.book_form{
+    font-size: 40px;
+    margin: 10px;
+}
 footer{
     background-color: lightgray;
     width: 100%;
@@ -234,6 +251,12 @@ footer{
     font-size: 50px;
     }
     #form input[type="text"],[type="tel"],[type="email"],[type="date"] {
+        float: right;
+        width: 60%;
+        background-color: grey;
+        font-size: 20px;
+    }
+    #building{
         float: right;
         width: 60%;
         background-color: grey;

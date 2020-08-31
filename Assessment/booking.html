@@ -22,22 +22,20 @@
 
     <!--Main Section, form for completion with required fields and input types-->
     <div id="book_page">
-        <h2>Enquire about making a booking at an ICT IWC council building</h2>
+        <h1>Enquire about making a booking at an ICT IWC council building</h1>
     </div>
         
     <form id="form">
         <p class="book_form"><label>Name*: </label> <input type="text" name="name" required></p>
-        <br>
         <p class="book_form"><label>Position: </label> <input type="text" name="position" ></p>
-        <br>
         <p class="book_form"><label>Email*: </label> <input type="email" name="email" required></p>
-        <br>
         <p class="book_form"><label>Phone Number*: </label> <input type="tel" name="phone" required></p>
-        <br>
-        <p class="book_form"><label>Building Required*: </label> <input type="text" name="building" required></p>
-        <br>
+        <p class="book_form"><label>Building Required*: </label> <select id="building" name="building">
+            <option value="County Hall">County Hall</option>
+            <option value="Somerton">Somerton</option>
+            <option value="Seaclose">Seaclose</option>
+        </select> </p>
         <p class="book_form"><label>Date Desk Required*: </label> <input type="date" name="date" required></p>
-        <br>
         <p class="book_form"><label>Additional Message: </label> <textarea id="textarea" name="comments" ></textarea></p>
         <!--a Button to complete the enquiry-->
         <div id="booking">
@@ -51,6 +49,5 @@
         <img id="logo" src="images/logo.png" alt="Isle of Wight Council Logo">
         
     </footer>
-   
 </body>
 </html>
